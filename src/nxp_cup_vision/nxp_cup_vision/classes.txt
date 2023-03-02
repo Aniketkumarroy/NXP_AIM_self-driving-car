@@ -1,0 +1,15 @@
+car
+barricade
+person
+left
+right
+tree
+postbox
+firehydrant
+box
+dustbin
+cone
+stop
+trafficlight
+ambulance
+can

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+nxp_cup_vision/__init__.py
+nxp_cup_vision/nxp_track_vision.py
+nxp_cup_vision.egg-info/PKG-INFO
+nxp_cup_vision.egg-info/SOURCES.txt
+nxp_cup_vision.egg-info/dependency_links.txt
+nxp_cup_vision.egg-info/entry_points.txt
+nxp_cup_vision.egg-info/requires.txt
+nxp_cup_vision.egg-info/top_level.txt
+nxp_cup_vision.egg-info/zip-safe
+resource/nxp_cup_vision

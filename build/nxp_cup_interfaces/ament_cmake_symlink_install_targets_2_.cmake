@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pranay/ros2ws/build/nxp_cup_interfaces/rosidl_generator_py/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "nxp_cup_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/nxp_cup_interfaces")

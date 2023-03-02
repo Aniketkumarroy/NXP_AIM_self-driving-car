@@ -1,0 +1,15 @@
+material startSign/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture start.png
+                scale 1 1
+            }
+        }
+    }
+}

@@ -1,0 +1,235 @@
+[0.000000] (-) TimerEvent: {}
+[0.000041] (-) JobUnselected: {'identifier': 'gazebo_models'}
+[0.000063] (-) JobUnselected: {'identifier': 'sim_gazebo_bringup'}
+[0.000080] (nxp_cup_interfaces) JobQueued: {'identifier': 'nxp_cup_interfaces', 'dependencies': OrderedDict()}
+[0.000145] (nxp_cup_interfaces) JobStarted: {'identifier': 'nxp_cup_interfaces'}
+[0.009402] (nxp_cup_interfaces) JobProgress: {'identifier': 'nxp_cup_interfaces', 'progress': 'cmake'}
+[0.009491] (nxp_cup_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/pranay/ros2ws/src/nxp_cup_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pranay/ros2ws/install/nxp_cup_interfaces'], 'cwd': '/home/pranay/ros2ws/build/nxp_cup_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pranay'), ('SSH_AGENT_PID', '1702'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pranay'), ('OLDPWD', '/home/pranay/ros2ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1511'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pranay/ros2ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pranay'), ('JOURNAL_STREAM', '9:41925'), ('_', '/opt/ros/foxy/bin/ros2'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pranay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/pranay/ros2ws/osrf/models:/home/pranay/ros2ws/nxp_gazebo/models:/tmp/gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pranay-Aspire-A715-75G:@/tmp/.ICE-unix/1740,unix/pranay-Aspire-A715-75G:/tmp/.ICE-unix/1740'), ('INVOCATION_ID', '02880e92c1304129aa82865c9cbbe0a9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b38bf46_81ef_4702_801a_663b43d1be92'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pranay/ros2ws/install/sim_gazebo_bringup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/home/pranay/ros2ws/osrf:/home/pranay/ros2ws/nxp_gazebo:/tmp/gazebo'), ('QT_IM_MODULE', 'ibus'), ('GAZEBO_MODEL_DATABASE_URI', ''), ('PWD', '/home/pranay/ros2ws/build/nxp_cup_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pranay/ros2ws/install/sim_gazebo_bringup:/opt/ros/foxy')]), 'shell': False}
+[0.049571] (nxp_cup_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.087779] (nxp_cup_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.091171] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.099316] (-) TimerEvent: {}
+[0.140875] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.141728] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199441] (-) TimerEvent: {}
+[0.200733] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.215533] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.215990] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.218976] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.294112] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.295254] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299538] (-) TimerEvent: {}
+[0.368921] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.382821] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.383448] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.385635] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.399625] (-) TimerEvent: {}
+[0.410918] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.411064] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.499710] (-) TimerEvent: {}
+[0.574772] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.592783] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.595769] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.599803] (-) TimerEvent: {}
+[0.601801] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.689602] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.699909] (-) TimerEvent: {}
+[0.704956] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.766158] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800020] (-) TimerEvent: {}
+[0.806778] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.900183] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.900304] (-) TimerEvent: {}
+[0.963070] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.969208] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.986960] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.988190] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.000418] (-) TimerEvent: {}
+[1.008656] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.008782] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.008868] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.008917] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.024726] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.100539] (-) TimerEvent: {}
+[1.200708] (-) TimerEvent: {}
+[1.255509] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.274807] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.276707] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/pranay/ros2ws/build/nxp_cup_interfaces\n'}
+[1.281342] (nxp_cup_interfaces) CommandEnded: {'returncode': 0}
+[1.281849] (nxp_cup_interfaces) JobProgress: {'identifier': 'nxp_cup_interfaces', 'progress': 'build'}
+[1.282500] (nxp_cup_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pranay/ros2ws/build/nxp_cup_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/pranay/ros2ws/build/nxp_cup_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pranay'), ('SSH_AGENT_PID', '1702'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pranay'), ('OLDPWD', '/home/pranay/ros2ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1511'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pranay/ros2ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pranay'), ('JOURNAL_STREAM', '9:41925'), ('_', '/opt/ros/foxy/bin/ros2'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pranay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/pranay/ros2ws/osrf/models:/home/pranay/ros2ws/nxp_gazebo/models:/tmp/gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pranay-Aspire-A715-75G:@/tmp/.ICE-unix/1740,unix/pranay-Aspire-A715-75G:/tmp/.ICE-unix/1740'), ('INVOCATION_ID', '02880e92c1304129aa82865c9cbbe0a9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b38bf46_81ef_4702_801a_663b43d1be92'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pranay/ros2ws/install/sim_gazebo_bringup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/home/pranay/ros2ws/osrf:/home/pranay/ros2ws/nxp_gazebo:/tmp/gazebo'), ('QT_IM_MODULE', 'ibus'), ('GAZEBO_MODEL_DATABASE_URI', ''), ('PWD', '/home/pranay/ros2ws/build/nxp_cup_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pranay/ros2ws/install/sim_gazebo_bringup:/opt/ros/foxy')]), 'shell': False}
+[1.300842] (-) TimerEvent: {}
+[1.313430] (nxp_cup_interfaces) StdoutLine: {'line': b'[  3%] Generating C code for ROS interfaces\n'}
+[1.313741] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__cpp\n'}
+[1.323662] (nxp_cup_interfaces) StdoutLine: {'line': b'[  6%] Generating C++ code for ROS interfaces\n'}
+[1.400970] (-) TimerEvent: {}
+[1.501112] (-) TimerEvent: {}
+[1.601274] (-) TimerEvent: {}
+[1.655589] (nxp_cup_interfaces) StdoutLine: {'line': b'[  6%] Built target nxp_cup_interfaces__cpp\n'}
+[1.663754] (nxp_cup_interfaces) StdoutLine: {'line': b'[  9%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[1.665488] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 12%] Generating C++ type support dispatch for ROS interfaces\n'}
+[1.666783] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 16%] Generating C++ introspection for ROS interfaces\n'}
+[1.679063] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__rosidl_generator_c\n'}
+[1.687746] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 19%] Building C object CMakeFiles/nxp_cup_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nxp_cup_interfaces/msg/detail/pixy_vector__functions.c.o\n'}
+[1.701367] (-) TimerEvent: {}
+[1.801519] (-) TimerEvent: {}
+[1.901809] (-) TimerEvent: {}
+[1.928446] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 22%] Linking C shared library libnxp_cup_interfaces__rosidl_generator_c.so\n'}
+[1.948470] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_cpp\n'}
+[1.956751] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.956896] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nxp_cup_interfaces/msg/pixy_vector__type_support.cpp.o\n'}
+[1.960074] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 25%] Built target nxp_cup_interfaces__rosidl_generator_c\n'}
+[1.965233] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nxp_cup_interfaces/msg/detail/pixy_vector__type_support.cpp.o\n'}
+[1.968360] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 32%] Generating C type support dispatch for ROS interfaces\n'}
+[1.969187] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 35%] Generating C introspection for ROS interfaces\n'}
+[1.999345] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.001893] (-) TimerEvent: {}
+[2.009540] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nxp_cup_interfaces/msg/detail/dds_fastrtps/pixy_vector__type_support.cpp.o\n'}
+[2.101991] (-) TimerEvent: {}
+[2.202152] (-) TimerEvent: {}
+[2.251451] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_c\n'}
+[2.258116] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.259886] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nxp_cup_interfaces/msg/pixy_vector__type_support.cpp.o\n'}
+[2.266758] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 45%] Building C object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nxp_cup_interfaces/msg/detail/pixy_vector__type_support.c.o\n'}
+[2.287813] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 48%] Linking CXX shared library libnxp_cup_interfaces__rosidl_typesupport_c.so\n'}
+[2.296073] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 51%] Linking C shared library libnxp_cup_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.302274] (-) TimerEvent: {}
+[2.318952] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 51%] Built target nxp_cup_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.329229] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 51%] Built target nxp_cup_interfaces__rosidl_typesupport_c\n'}
+[2.402396] (-) TimerEvent: {}
+[2.496115] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 54%] Linking CXX shared library libnxp_cup_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.502524] (-) TimerEvent: {}
+[2.507674] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 58%] Linking CXX shared library libnxp_cup_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.530571] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 58%] Built target nxp_cup_interfaces__rosidl_typesupport_cpp\n'}
+[2.540955] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 58%] Built target nxp_cup_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.590906] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 61%] Linking CXX shared library libnxp_cup_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.602636] (-) TimerEvent: {}
+[2.656894] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 61%] Built target nxp_cup_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.663793] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 64%] Generating C type support for eProsima Fast-RTPS\n'}
+[2.702751] (-) TimerEvent: {}
+[2.802924] (-) TimerEvent: {}
+[2.892739] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.900077] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nxp_cup_interfaces/msg/detail/pixy_vector__type_support_c.cpp.o\n'}
+[2.903025] (-) TimerEvent: {}
+[3.003190] (-) TimerEvent: {}
+[3.103381] (-) TimerEvent: {}
+[3.159894] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 70%] Linking CXX shared library libnxp_cup_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.203514] (-) TimerEvent: {}
+[3.221219] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 70%] Built target nxp_cup_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.228099] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces\n'}
+[3.234964] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 70%] Built target nxp_cup_interfaces\n'}
+[3.241992] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__py\n'}
+[3.248883] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 74%] Generating Python code for ROS interfaces\n'}
+[3.303631] (-) TimerEvent: {}
+[3.403794] (-) TimerEvent: {}
+[3.503958] (-) TimerEvent: {}
+[3.604117] (-) TimerEvent: {}
+[3.679682] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 74%] Built target nxp_cup_interfaces__py\n'}
+[3.702022] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__python\n'}
+[3.704208] (-) TimerEvent: {}
+[3.709899] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 77%] Building C object CMakeFiles/nxp_cup_interfaces__python.dir/rosidl_generator_py/nxp_cup_interfaces/msg/_pixy_vector_s.c.o\n'}
+[3.782592] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 80%] Linking C shared library rosidl_generator_py/nxp_cup_interfaces/libnxp_cup_interfaces__python.so\n'}
+[3.804343] (-) TimerEvent: {}
+[3.809542] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 80%] Built target nxp_cup_interfaces__python\n'}
+[3.821033] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.825766] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.826148] (nxp_cup_interfaces) StdoutLine: {'line': b'Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.830916] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 83%] Building C object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nxp_cup_interfaces/_nxp_cup_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[3.835027] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nxp_cup_interfaces/_nxp_cup_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[3.836688] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nxp_cup_interfaces/_nxp_cup_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[3.892640] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 93%] Linking C shared library rosidl_generator_py/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.896097] (nxp_cup_interfaces) StdoutLine: {'line': b'[ 96%] Linking C shared library rosidl_generator_py/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.901969] (nxp_cup_interfaces) StdoutLine: {'line': b'[100%] Linking CXX shared library rosidl_generator_py/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.904453] (-) TimerEvent: {}
+[3.920703] (nxp_cup_interfaces) StdoutLine: {'line': b'[100%] Built target nxp_cup_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.922523] (nxp_cup_interfaces) StdoutLine: {'line': b'[100%] Built target nxp_cup_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.951518] (nxp_cup_interfaces) StdoutLine: {'line': b'[100%] Built target nxp_cup_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.958970] (nxp_cup_interfaces) CommandEnded: {'returncode': 0}
+[3.988155] (nxp_cup_interfaces) JobProgress: {'identifier': 'nxp_cup_interfaces', 'progress': 'install'}
+[3.995940] (nxp_cup_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pranay/ros2ws/build/nxp_cup_interfaces'], 'cwd': '/home/pranay/ros2ws/build/nxp_cup_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pranay'), ('SSH_AGENT_PID', '1702'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pranay'), ('OLDPWD', '/home/pranay/ros2ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1511'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pranay/ros2ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pranay'), ('JOURNAL_STREAM', '9:41925'), ('_', '/opt/ros/foxy/bin/ros2'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pranay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/pranay/ros2ws/osrf/models:/home/pranay/ros2ws/nxp_gazebo/models:/tmp/gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pranay-Aspire-A715-75G:@/tmp/.ICE-unix/1740,unix/pranay-Aspire-A715-75G:/tmp/.ICE-unix/1740'), ('INVOCATION_ID', '02880e92c1304129aa82865c9cbbe0a9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b38bf46_81ef_4702_801a_663b43d1be92'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pranay/ros2ws/install/sim_gazebo_bringup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/home/pranay/ros2ws/osrf:/home/pranay/ros2ws/nxp_gazebo:/tmp/gazebo'), ('QT_IM_MODULE', 'ibus'), ('GAZEBO_MODEL_DATABASE_URI', ''), ('PWD', '/home/pranay/ros2ws/build/nxp_cup_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pranay/ros2ws/install/sim_gazebo_bringup:/opt/ros/foxy')]), 'shell': False}
+[4.003389] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.003797] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.004050] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/ament_index/resource_index/rosidl_interfaces/nxp_cup_interfaces\n'}
+[4.004539] (-) TimerEvent: {}
+[4.010651] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__functions.h\n'}
+[4.016766] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__struct.h\n'}
+[4.022689] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__type_support.h\n'}
+[4.028750] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/pixy_vector.h\n'}
+[4.034662] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.040800] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/library_path.sh\n'}
+[4.047030] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/library_path.dsv\n'}
+[4.053383] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__rosidl_typesupport_fastrtps_c.h\n'}
+[4.059382] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.065607] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.071924] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.077848] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.084025] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.090220] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__rosidl_typesupport_introspection_c.h\n'}
+[4.096259] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.102535] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__builder.hpp\n'}
+[4.104640] (-) TimerEvent: {}
+[4.108604] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__struct.hpp\n'}
+[4.114491] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__traits.hpp\n'}
+[4.120374] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/pixy_vector.hpp\n'}
+[4.126472] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.132489] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/pythonpath.sh\n'}
+[4.138448] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/pythonpath.dsv\n'}
+[4.144476] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/__init__.py\n'}
+[4.150638] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/msg/__init__.py\n'}
+[4.156586] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/msg/_pixy_vector.py\n'}
+[4.162701] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.168876] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.175008] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.181098] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__python.so\n'}
+[4.187203] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/msg/PixyVector.idl\n'}
+[4.193209] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/msg/PixyVector.msg\n'}
+[4.199237] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/ament_index/resource_index/package_run_dependencies/nxp_cup_interfaces\n'}
+[4.204748] (-) TimerEvent: {}
+[4.205341] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/ament_index/resource_index/parent_prefix_path/nxp_cup_interfaces\n'}
+[4.211393] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/ament_prefix_path.sh\n'}
+[4.217267] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.223258] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/path.sh\n'}
+[4.229229] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/path.dsv\n'}
+[4.235337] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/local_setup.bash\n'}
+[4.241449] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/local_setup.sh\n'}
+[4.247493] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/local_setup.zsh\n'}
+[4.253557] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/local_setup.dsv\n'}
+[4.259615] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/package.dsv\n'}
+[4.265621] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/ament_index/resource_index/packages/nxp_cup_interfaces\n'}
+[4.271661] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.277647] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.283736] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.289748] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.295812] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.301849] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.304850] (-) TimerEvent: {}
+[4.307914] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.313878] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfacesConfig.cmake\n'}
+[4.319838] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfacesConfig-version.cmake\n'}
+[4.325879] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/package.xml\n'}
+[4.331865] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_generator_c.so\n'}
+[4.332070] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.332191] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.332314] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.332433] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_c.so\n'}
+[4.332559] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.332684] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.332850] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.332976] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.333117] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.355563] (nxp_cup_interfaces) StdoutLine: {'line': b"Compiling '/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/__init__.py'...\n"}
+[4.358424] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.358554] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.358752] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.358927] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.359047] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.359302] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.359483] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.359539] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.359588] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.359640] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.359687] (nxp_cup_interfaces) StdoutLine: {'line': b'-- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.360722] (nxp_cup_interfaces) CommandEnded: {'returncode': 0}
+[4.405012] (-) TimerEvent: {}
+[4.411132] (nxp_cup_interfaces) JobEnded: {'identifier': 'nxp_cup_interfaces', 'rc': 0}
+[4.411568] (-) EventReactorShutdown: {}

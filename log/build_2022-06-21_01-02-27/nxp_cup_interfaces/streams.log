@@ -1,0 +1,181 @@
+[0.011s] Invoking command in '/home/pranay/ros2ws/build/nxp_cup_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/pranay/ros2ws/src/nxp_cup_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pranay/ros2ws/install/nxp_cup_interfaces
+[0.050s] -- The C compiler identification is GNU 9.4.0
+[0.088s] -- The CXX compiler identification is GNU 9.4.0
+[0.091s] -- Check for working C compiler: /usr/bin/cc
+[0.141s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.142s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.215s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.219s] -- Check for working CXX compiler: /usr/bin/c++
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.295s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Detecting CXX compile features
+[0.383s] -- Detecting CXX compile features - done
+[0.386s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.411s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.411s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.575s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.593s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.596s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.602s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.690s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.705s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.766s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.807s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.900s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.963s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.969s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.987s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.988s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.009s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.009s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.009s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.009s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.025s] -- Found PythonExtra: .so  
+[1.255s] -- Configuring done
+[1.275s] -- Generating done
+[1.277s] -- Build files have been written to: /home/pranay/ros2ws/build/nxp_cup_interfaces
+[1.281s] Invoked command in '/home/pranay/ros2ws/build/nxp_cup_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/pranay/ros2ws/src/nxp_cup_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pranay/ros2ws/install/nxp_cup_interfaces
+[1.283s] Invoking command in '/home/pranay/ros2ws/build/nxp_cup_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pranay/ros2ws/build/nxp_cup_interfaces -- -j8 -l8
+[1.314s] [  3%] Generating C code for ROS interfaces
+[1.314s] Scanning dependencies of target nxp_cup_interfaces__cpp
+[1.324s] [  6%] Generating C++ code for ROS interfaces
+[1.656s] [  6%] Built target nxp_cup_interfaces__cpp
+[1.664s] [  9%] Generating C++ type support for eProsima Fast-RTPS
+[1.665s] [ 12%] Generating C++ type support dispatch for ROS interfaces
+[1.667s] [ 16%] Generating C++ introspection for ROS interfaces
+[1.679s] Scanning dependencies of target nxp_cup_interfaces__rosidl_generator_c
+[1.688s] [ 19%] Building C object CMakeFiles/nxp_cup_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nxp_cup_interfaces/msg/detail/pixy_vector__functions.c.o
+[1.928s] [ 22%] Linking C shared library libnxp_cup_interfaces__rosidl_generator_c.so
+[1.948s] Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_cpp
+[1.957s] Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_introspection_cpp
+[1.957s] [ 25%] Building CXX object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nxp_cup_interfaces/msg/pixy_vector__type_support.cpp.o
+[1.960s] [ 25%] Built target nxp_cup_interfaces__rosidl_generator_c
+[1.965s] [ 29%] Building CXX object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nxp_cup_interfaces/msg/detail/pixy_vector__type_support.cpp.o
+[1.968s] [ 32%] Generating C type support dispatch for ROS interfaces
+[1.969s] [ 35%] Generating C introspection for ROS interfaces
+[1.999s] Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.009s] [ 38%] Building CXX object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nxp_cup_interfaces/msg/detail/dds_fastrtps/pixy_vector__type_support.cpp.o
+[2.251s] Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_c
+[2.258s] Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_introspection_c
+[2.260s] [ 41%] Building CXX object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nxp_cup_interfaces/msg/pixy_vector__type_support.cpp.o
+[2.267s] [ 45%] Building C object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nxp_cup_interfaces/msg/detail/pixy_vector__type_support.c.o
+[2.288s] [ 48%] Linking CXX shared library libnxp_cup_interfaces__rosidl_typesupport_c.so
+[2.296s] [ 51%] Linking C shared library libnxp_cup_interfaces__rosidl_typesupport_introspection_c.so
+[2.319s] [ 51%] Built target nxp_cup_interfaces__rosidl_typesupport_introspection_c
+[2.329s] [ 51%] Built target nxp_cup_interfaces__rosidl_typesupport_c
+[2.496s] [ 54%] Linking CXX shared library libnxp_cup_interfaces__rosidl_typesupport_cpp.so
+[2.508s] [ 58%] Linking CXX shared library libnxp_cup_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.531s] [ 58%] Built target nxp_cup_interfaces__rosidl_typesupport_cpp
+[2.541s] [ 58%] Built target nxp_cup_interfaces__rosidl_typesupport_introspection_cpp
+[2.591s] [ 61%] Linking CXX shared library libnxp_cup_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.657s] [ 61%] Built target nxp_cup_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.664s] [ 64%] Generating C type support for eProsima Fast-RTPS
+[2.893s] Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_fastrtps_c
+[2.900s] [ 67%] Building CXX object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nxp_cup_interfaces/msg/detail/pixy_vector__type_support_c.cpp.o
+[3.160s] [ 70%] Linking CXX shared library libnxp_cup_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.221s] [ 70%] Built target nxp_cup_interfaces__rosidl_typesupport_fastrtps_c
+[3.228s] Scanning dependencies of target nxp_cup_interfaces
+[3.235s] [ 70%] Built target nxp_cup_interfaces
+[3.242s] Scanning dependencies of target nxp_cup_interfaces__py
+[3.249s] [ 74%] Generating Python code for ROS interfaces
+[3.680s] [ 74%] Built target nxp_cup_interfaces__py
+[3.702s] Scanning dependencies of target nxp_cup_interfaces__python
+[3.710s] [ 77%] Building C object CMakeFiles/nxp_cup_interfaces__python.dir/rosidl_generator_py/nxp_cup_interfaces/msg/_pixy_vector_s.c.o
+[3.783s] [ 80%] Linking C shared library rosidl_generator_py/nxp_cup_interfaces/libnxp_cup_interfaces__python.so
+[3.809s] [ 80%] Built target nxp_cup_interfaces__python
+[3.821s] Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.826s] Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_c__pyext
+[3.826s] Scanning dependencies of target nxp_cup_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.831s] [ 83%] Building C object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nxp_cup_interfaces/_nxp_cup_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[3.835s] [ 87%] Building C object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nxp_cup_interfaces/_nxp_cup_interfaces_s.ep.rosidl_typesupport_c.c.o
+[3.837s] [ 90%] Building C object CMakeFiles/nxp_cup_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nxp_cup_interfaces/_nxp_cup_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[3.893s] [ 93%] Linking C shared library rosidl_generator_py/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.896s] [ 96%] Linking C shared library rosidl_generator_py/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.902s] [100%] Linking CXX shared library rosidl_generator_py/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.921s] [100%] Built target nxp_cup_interfaces__rosidl_typesupport_c__pyext
+[3.922s] [100%] Built target nxp_cup_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.951s] [100%] Built target nxp_cup_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.959s] Invoked command in '/home/pranay/ros2ws/build/nxp_cup_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pranay/ros2ws/build/nxp_cup_interfaces -- -j8 -l8
+[3.996s] Invoking command in '/home/pranay/ros2ws/build/nxp_cup_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pranay/ros2ws/build/nxp_cup_interfaces
+[4.003s] -- Install configuration: ""
+[4.004s] -- Execute custom install script
+[4.004s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/ament_index/resource_index/rosidl_interfaces/nxp_cup_interfaces
+[4.011s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__functions.h
+[4.017s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__struct.h
+[4.023s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__type_support.h
+[4.029s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/pixy_vector.h
+[4.035s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.041s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/library_path.sh
+[4.047s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/library_path.dsv
+[4.053s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__rosidl_typesupport_fastrtps_c.h
+[4.059s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.066s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.072s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__rosidl_typesupport_fastrtps_cpp.hpp
+[4.078s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.084s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.090s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__rosidl_typesupport_introspection_c.h
+[4.096s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.102s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__builder.hpp
+[4.109s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__struct.hpp
+[4.114s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__traits.hpp
+[4.120s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/pixy_vector.hpp
+[4.126s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/include/nxp_cup_interfaces/msg/detail/pixy_vector__rosidl_typesupport_introspection_cpp.hpp
+[4.132s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/pythonpath.sh
+[4.138s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/pythonpath.dsv
+[4.144s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/__init__.py
+[4.151s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/msg/__init__.py
+[4.157s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/msg/_pixy_vector.py
+[4.163s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.169s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.175s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/nxp_cup_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.181s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__python.so
+[4.187s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/msg/PixyVector.idl
+[4.193s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/msg/PixyVector.msg
+[4.199s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/ament_index/resource_index/package_run_dependencies/nxp_cup_interfaces
+[4.205s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/ament_index/resource_index/parent_prefix_path/nxp_cup_interfaces
+[4.211s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/ament_prefix_path.sh
+[4.217s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/ament_prefix_path.dsv
+[4.223s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/path.sh
+[4.229s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/environment/path.dsv
+[4.235s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/local_setup.bash
+[4.241s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/local_setup.sh
+[4.247s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/local_setup.zsh
+[4.254s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/local_setup.dsv
+[4.260s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/package.dsv
+[4.266s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/ament_index/resource_index/packages/nxp_cup_interfaces
+[4.272s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.278s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.284s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.290s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.296s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.302s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.308s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.314s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfacesConfig.cmake
+[4.320s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfacesConfig-version.cmake
+[4.326s] -- Symlinking: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/package.xml
+[4.332s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_generator_c.so
+[4.332s] -- Set runtime path of "/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_generator_c.so" to ""
+[4.332s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_introspection_c.so
+[4.332s] -- Set runtime path of "/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.332s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_c.so
+[4.333s] -- Set runtime path of "/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_c.so" to ""
+[4.333s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.333s] -- Set runtime path of "/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.333s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_cpp.so
+[4.333s] -- Set runtime path of "/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/libnxp_cup_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.355s] Compiling '/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages/nxp_cup_interfaces/__init__.py'...
+[4.358s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_generator_cExport.cmake
+[4.359s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.359s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.359s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.359s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_cExport.cmake
+[4.359s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.359s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_generator_cppExport.cmake
+[4.359s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.359s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.360s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_cppExport.cmake
+[4.360s] -- Installing: /home/pranay/ros2ws/install/nxp_cup_interfaces/share/nxp_cup_interfaces/cmake/nxp_cup_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.361s] Invoked command in '/home/pranay/ros2ws/build/nxp_cup_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pranay/ros2ws/build/nxp_cup_interfaces

@@ -1,0 +1,15 @@
+material cone/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture Construction_Cone_Diffuse.png
+                scale 1 1
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+material Logo/NXP
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture nxp.png
+                scale 1.0 1.0
+            }
+        }
+    }
+}

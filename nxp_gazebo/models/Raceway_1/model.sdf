@@ -1,0 +1,171 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name='Raceway_1'>
+    <pose>0 0 0 0 0 0</pose>
+    <self_collide>false</self_collide>
+    <static>true</static>
+    <link name='Raceway_1/Base'>
+      <visual name='Raceway_1/TrackVisual'>
+        <pose>0 0 -.045 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.35 0.35 0.35</scale>
+            <uri>model://Raceway_1/meshes/track2.dae</uri>
+          </mesh>
+        </geometry>
+       
+      </visual>
+      <collision name='Raceway_1/RumbleCollision'>
+        <pose>-0.007 2 -0.05 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.35 .3605 0.35</scale>
+            <uri>model://Raceway_1/meshes/rumble_new.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='Raceway_1/RumbleVisual'>
+        <pose>-0.007 2 -0.05 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.35 0.3605 0.35</scale>
+            <uri>model://Raceway_1/meshes/rumble_new.dae</uri>
+          </mesh>
+        </geometry>
+        
+      </visual>
+      <collision name='Raceway_1/BridgeCollision'>
+        <pose>2.2 10.1 -0.05 0 0 -1.447</pose>
+        <geometry>
+          <mesh>
+            <scale>0.35 0.3605 0.31</scale>
+            <uri>model://Raceway_1/meshes/Bridge_new.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='Raceway_1/BridgeVisual'>
+        <pose>2.2 10.1 -0.05 0 0 -1.447</pose>
+        <geometry>
+          <mesh>
+            <scale>0.35 0.3605 0.31</scale>
+            <uri>model://Raceway_1/meshes/Bridge_new.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Raceway_1/BridgeExtVisual1'>
+        <pose>2.2 9.2 -0.05 0 0 -1.447</pose>
+        <geometry>
+          <mesh>
+            <scale>0.35 0.3605 0.31</scale>
+            <uri>model://Raceway_1/meshes/bridge_extension.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Raceway_1/BridgeExtVisual2'>
+        <pose>2.2 10.95 -0.05 0 0 -1.447</pose>
+        <geometry>
+          <mesh>
+            <scale>0.35 0.3605 0.31</scale>
+            <uri>model://Raceway_1/meshes/bridge_extension.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Raceway_1/BridgeVisual_demo'>
+        <pose>2.25 9.67 -0.05 0 0 -1.447</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.3605 0.31</scale>
+            <uri>model://Raceway_1/meshes/bridge_side.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+       <visual name='Raceway_1/Tunnel1'>
+        <pose>-6.27 7.67 -0.05 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.73 0.2 0.5</scale>
+            <uri>model://Raceway_1/meshes/tunnel.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Raceway_1/BridgeVisual_demo1'>
+        <pose>2.15 10.55 -0.05 0 0 -1.447</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.3605 0.31</scale>
+            <uri>model://Raceway_1/meshes/bridge_side.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Raceway_1/BridgeVisual_demo2'>
+        <pose>-5.53 -3 -0.045 0 0 -0.063</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.3 0.31</scale>
+            <uri>model://Raceway_1/meshes/bridge_side.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      
+      <visual name='Raceway_1/BridgeVisual_demo3'>
+        <pose>-4.67 -3.05 -0.045 0 0 -0.063</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.3 0.31</scale>
+            <uri>model://Raceway_1/meshes/bridge_side.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      
+      
+      
+      <collision name='Raceway_1/BridgeCollision2'>
+        <pose>-5.1 -3.05 -0.045 0 0 -0.063</pose>
+        <geometry>
+          <mesh>
+            <scale>0.35 0.44 0.3</scale>
+            <uri>model://Raceway_1/meshes/Bridge_new.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='Raceway_1/BridgeVisual2'>
+        <pose>-5.1 -3.05 -0.045 0 0 -0.063</pose>
+        <geometry>
+          <mesh>
+            <scale>0.35 0.4 0.3</scale>
+            <uri>model://Raceway_1/meshes/Bridge_new.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Raceway_1/BridgeExtVisual3'>
+        <pose>-4.25 -3.15 -0.045 0 0 -0.063</pose>
+        <geometry>
+          <mesh>
+            <scale>0.35 0.3 0.31</scale>
+            <uri>model://Raceway_1/meshes/bridge_extension.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Raceway_1/BridgeExtVisual4'>
+        <pose>-6 -3 -0.045 0 0 -0.063</pose>
+        <geometry>
+          <mesh>
+            <scale>0.35 0.3 0.31</scale>
+            <uri>model://Raceway_1/meshes/bridge_extension.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Raceway_1/Tunnel2'>
+        <pose>-4.2 -11.8 -.02 0 0 1.384</pose>
+        <geometry>
+          <mesh>
+            <scale>0.73 0.2 0.5</scale>
+            <uri>model://Raceway_1/meshes/tunnel.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      
+
+    </link>
+  </model>
+</sdf>

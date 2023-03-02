@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.2.0 commit date:2022-06-08, commit time:10:22, hash:e05e1e369187</authoring_tool>
+    </contributor>
+    <created>2022-07-01T11:52:59</created>
+    <modified>2022-07-01T11:52:59</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Material_001-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 1 6.34754e-6 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.02064078 0.8000001 0 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="Material_001-material" name="Material.001">
+      <instance_effect url="#Material_001-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="InfiniteOverpassInsideTunnel-mesh" name="InfiniteOverpassInsideTunnel">
+      <mesh>
+        <source id="InfiniteOverpassInsideTunnel-mesh-positions">
+          <float_array id="InfiniteOverpassInsideTunnel-mesh-positions-array" count="183">11.3194 16.5341 0 11.3194 3.774701 0 17.9741 11.8694 0 11.57591 11.8694 1.05 12.08571 11.8694 1.004881 3.709646 11.88234 0 5.754702 23.14602 0 8.370235 23.134 0 19.41411 0.55 0 3.49917 23.134 0 5.394702 23.23159 0 10.9444 7.594403 0 10.9944 7.594403 0 10.9444 7.594403 0.2 10.9944 7.594403 0.2 10.97622 7.594403 0.400861 11.03059 7.594403 0.4052121 11.06854 7.594403 0.5820604 11.13478 7.594403 0.5856726 11.21234 7.594403 0.7258611 11.2944 7.594403 0.7196152 11.39354 7.594403 0.8181868 11.49021 7.594403 0.7908847 11.5944 7.594403 0.85 11.69859 7.594403 0.7908847 12.1944 7.594403 0 12.2444 7.594403 0 12.1944 7.594403 0.2 12.2444 7.594403 0.2 12.15822 7.594403 0.4052121 12.21259 7.594403 0.400861 12.05403 7.594403 0.5856726 12.12026 7.594403 0.5820604 11.8944 7.594403 0.7196152 11.97646 7.594403 0.7258611 11.79526 7.594403 0.8181868 10.9944 15.5944 0.2 10.9944 15.5944 0 10.9444 15.5944 0 10.9444 15.5944 0.2 11.03059 15.5944 0.4052121 10.97622 15.5944 0.400861 11.13478 15.5944 0.5856726 11.06854 15.5944 0.5820604 11.2944 15.5944 0.7196152 11.21234 15.5944 0.7258611 11.49021 15.5944 0.7908847 11.39354 15.5944 0.8181868 11.5944 15.5944 0.85 11.69859 15.5944 0.7908847 11.79526 15.5944 0.8181868 11.8944 15.5944 0.7196152 11.97646 15.5944 0.7258611 12.05403 15.5944 0.5856726 12.12026 15.5944 0.5820604 12.15822 15.5944 0.4052121 12.21259 15.5944 0.400861 12.1944 15.5944 0.2 12.2444 15.5944 0.2 12.1944 15.5944 0 12.2444 15.5944 0</float_array>
+          <technique_common>
+            <accessor source="#InfiniteOverpassInsideTunnel-mesh-positions-array" count="61" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="InfiniteOverpassInsideTunnel-mesh-normals">
+          <float_array id="InfiniteOverpassInsideTunnel-mesh-normals-array" count="177">0 -1 0 0 -1 2.96743e-6 0 -1 -5.41853e-6 0 -1 1.98878e-5 0 -1 -1.94856e-5 0 -1 -1.39272e-5 0 -1 -1.0217e-5 0 -1 2.87431e-5 0 -1 1.71863e-5 0 -1 -2.7855e-5 1 0 0 0 1 0 0 1 -2.32353e-5 0 1 1.10561e-5 0 1 1.71865e-5 0 1 5.57091e-5 0 1 5.57099e-5 0 1 -1.98874e-5 0 1 2.05956e-5 0 1 2.52283e-5 0 1 -5.41829e-6 -1 0 0 0 0 -1 0.9876881 0 0.1564362 0.9876881 0 0.1564361 0.8910056 0 0.4539924 0.8910055 0 0.4539924 0.7071065 0 0.7071071 0.7071069 0 0.7071067 0.4539911 0 0.8910063 0.4539911 0 0.8910062 0.1564345 0 0.9876884 0.1564345 0 0.9876884 -0.1564345 0 0.9876884 -0.1564345 0 0.9876884 -0.4539911 0 0.8910063 -0.4539911 0 0.8910062 -0.7071068 0 0.7071068 -0.7071066 0 0.7071071 -0.8910074 0 0.4539889 -0.8910075 0 0.4539886 -0.9876874 0 0.1564407 -0.9876874 0 0.1564407 0.9848079 0 -0.1736477 0.9848079 0 -0.1736476 0.8660254 0 -0.5 0.8660253 0 -0.5000002 0.6427893 0 -0.7660431 0.6427891 0 -0.7660433 0.3420203 0 -0.9396926 0.3420199 0 -0.9396928 -0.3420198 0 -0.9396927 -0.3420203 0 -0.9396926 -0.642789 0 -0.7660434 -0.6427894 0 -0.766043 -0.8660253 0 -0.5000002 -0.8660254 0 -0.5 -0.9848079 0 -0.1736477 -0.9848079 0 -0.1736476</float_array>
+          <technique_common>
+            <accessor source="#InfiniteOverpassInsideTunnel-mesh-normals-array" count="59" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="InfiniteOverpassInsideTunnel-mesh-vertices">
+          <input semantic="POSITION" source="#InfiniteOverpassInsideTunnel-mesh-positions"/>
+        </vertices>
+        <triangles material="Material_001-material" count="96">
+          <input semantic="VERTEX" source="#InfiniteOverpassInsideTunnel-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#InfiniteOverpassInsideTunnel-mesh-normals" offset="1"/>
+          <p>11 0 12 0 13 0 13 0 12 0 14 0 13 1 14 1 15 1 15 2 14 2 16 2 15 0 16 0 17 0 17 0 16 0 18 0 17 0 18 0 19 0 19 3 18 3 20 3 19 0 20 0 21 0 21 4 20 4 22 4 21 5 22 5 23 5 23 0 22 0 24 0 25 0 26 0 27 0 27 0 26 0 28 0 27 0 28 0 29 0 29 0 28 0 30 0 29 0 30 0 31 0 31 6 30 6 32 6 31 7 32 7 33 7 33 0 32 0 34 0 33 0 34 0 24 0 24 8 34 8 35 8 24 9 35 9 23 9 36 10 14 10 37 10 37 10 14 10 12 10 37 11 38 11 36 11 36 11 38 11 39 11 36 12 39 12 40 12 40 13 39 13 41 13 40 11 41 11 42 11 42 11 41 11 43 11 42 11 43 11 44 11 44 11 43 11 45 11 44 11 45 11 46 11 45 14 47 14 46 14 46 15 47 15 48 15 46 11 48 11 49 11 49 16 48 16 50 16 49 11 50 11 51 11 51 11 50 11 52 11 51 17 52 17 53 17 53 11 52 11 54 11 53 18 54 18 55 18 55 19 54 19 56 19 55 20 56 20 57 20 57 11 56 11 58 11 57 11 58 11 59 11 59 11 58 11 60 11 13 21 39 21 11 21 11 21 39 21 38 21 38 22 37 22 11 22 11 22 37 22 12 22 28 23 58 23 56 23 28 24 56 24 30 24 30 25 56 25 54 25 30 26 54 26 32 26 32 27 54 27 52 27 32 28 52 28 34 28 34 29 52 29 50 29 34 30 50 30 35 30 35 31 50 31 48 31 35 32 48 32 23 32 23 33 48 33 47 33 23 34 47 34 21 34 21 35 47 35 45 35 21 36 45 36 19 36 19 37 45 37 43 37 19 38 43 38 17 38 17 39 43 39 41 39 17 40 41 40 15 40 15 41 41 41 39 41 15 42 39 42 13 42 14 43 36 43 40 43 14 44 40 44 16 44 16 45 40 45 42 45 16 46 42 46 18 46 18 47 42 47 44 47 18 48 44 48 20 48 20 49 44 49 46 49 20 50 46 50 22 50 22 22 46 22 49 22 22 22 49 22 24 22 24 51 49 51 51 51 24 52 51 52 33 52 33 53 51 53 53 53 33 54 53 54 31 54 31 55 53 55 55 55 31 56 55 56 29 56 29 57 55 57 57 57 29 58 57 58 27 58 27 21 57 21 25 21 25 21 57 21 59 21 58 10 28 10 60 10 60 10 28 10 26 10 60 22 26 22 59 22 59 22 26 22 25 22</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="InfiniteOverpassInsideTunnel" name="InfiniteOverpassInsideTunnel" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#InfiniteOverpassInsideTunnel-mesh" name="InfiniteOverpassInsideTunnel">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

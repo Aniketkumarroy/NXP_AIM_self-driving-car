@@ -1,0 +1,92 @@
+material startPoint/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture race.png
+                scale 1 1
+            }
+        }
+    }
+}
+material finishLine/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture finish.png
+                scale 1 1
+            }
+        }
+    }
+}
+
+material zebraLine/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture zebra_line.png
+                scale 1 1
+            }
+        }
+    }
+}
+
+material zebraLine2/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture zebra.png
+                scale 1 1
+            }
+        }
+    }
+}
+material ban1/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture banner1.png
+                scale 1 1
+            }
+        }
+    }
+}
+material ban2/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture banner2.png
+                scale 1 1
+            }
+        }
+    }
+}

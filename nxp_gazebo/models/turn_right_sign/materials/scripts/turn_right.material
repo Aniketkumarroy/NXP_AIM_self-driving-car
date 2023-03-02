@@ -1,0 +1,15 @@
+material rightSign/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture turn_right.png
+                scale 1 1
+            }
+        }
+    }
+}

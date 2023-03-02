@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating aim_line_follow.egg-info
+writing aim_line_follow.egg-info/PKG-INFO
+writing dependency_links to aim_line_follow.egg-info/dependency_links.txt
+writing entry points to aim_line_follow.egg-info/entry_points.txt
+writing requirements to aim_line_follow.egg-info/requires.txt
+writing top-level names to aim_line_follow.egg-info/top_level.txt
+writing manifest file 'aim_line_follow.egg-info/SOURCES.txt'
+reading manifest file 'aim_line_follow.egg-info/SOURCES.txt'
+writing manifest file 'aim_line_follow.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pranay/ros2ws/install/aim_line_follow/lib/python3.8/site-packages/aim-line-follow.egg-link (link to .)
+Installing line_follower script to /home/pranay/ros2ws/install/aim_line_follow/lib/aim_line_follow
+
+Installed /home/pranay/ros2ws/build/aim_line_follow
+running install_data
+creating /home/pranay/ros2ws/install/aim_line_follow/share/ament_index
+creating /home/pranay/ros2ws/install/aim_line_follow/share/ament_index/resource_index
+creating /home/pranay/ros2ws/install/aim_line_follow/share/ament_index/resource_index/packages
+copying resource/aim_line_follow -> /home/pranay/ros2ws/install/aim_line_follow/share/ament_index/resource_index/packages
+copying package.xml -> /home/pranay/ros2ws/install/aim_line_follow/share/aim_line_follow
+/home/pranay/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/home/pranay/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/home/pranay/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+/home/pranay/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+  warnings.warn(

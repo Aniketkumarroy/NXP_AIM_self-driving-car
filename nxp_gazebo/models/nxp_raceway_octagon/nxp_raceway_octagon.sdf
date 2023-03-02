@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">    
+  <model name='nxp_raceway_octagon'>
+    <pose>0 0 0 0 0 0</pose>
+    <link name='nxp_raceway_octagon_link'>
+      <collision name='nxp_raceway_octagon_collision'>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nxp_raceway_octagon/meshes/CourseOctaSwingInside.stl</uri>
+          </mesh>
+        </geometry>
+        <pose>-4.0 -.255 -.04 0 0 0</pose>
+      </collision>
+      <visual name='nxp_raceway_octagon_inside_visual'>
+        <cast_shadows>0</cast_shadows>
+        <pose>-4.0 -.255 -.04 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nxp_raceway_octagon/meshes/CourseOctaSwingInside.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/White</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='nxp_raceway_octagon_border_visual'>
+        <cast_shadows>0</cast_shadows>
+        <pose>-4.02 -.275 -.04 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nxp_raceway_octagon/meshes/CourseOctaSwingBorder.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Black</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>

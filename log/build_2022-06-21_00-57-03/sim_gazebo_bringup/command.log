@@ -1,0 +1,6 @@
+Invoking command in '/home/pranay/ros2ws/build/sim_gazebo_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/pranay/ros2ws/src/sim_gazebo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pranay/ros2ws/install/sim_gazebo_bringup
+Invoked command in '/home/pranay/ros2ws/build/sim_gazebo_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/pranay/ros2ws/src/sim_gazebo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pranay/ros2ws/install/sim_gazebo_bringup
+Invoking command in '/home/pranay/ros2ws/build/sim_gazebo_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pranay/ros2ws/build/sim_gazebo_bringup -- -j8 -l8
+Invoked command in '/home/pranay/ros2ws/build/sim_gazebo_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pranay/ros2ws/build/sim_gazebo_bringup -- -j8 -l8
+Invoking command in '/home/pranay/ros2ws/build/sim_gazebo_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/pranay/ros2ws/build/sim_gazebo_bringup
+Invoked command in '/home/pranay/ros2ws/build/sim_gazebo_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/pranay/ros2ws/build/sim_gazebo_bringup

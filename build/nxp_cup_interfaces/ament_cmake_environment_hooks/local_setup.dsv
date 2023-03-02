@@ -1,0 +1,4 @@
+source;share/nxp_cup_interfaces/environment/ament_prefix_path.sh
+source;share/nxp_cup_interfaces/environment/library_path.sh
+source;share/nxp_cup_interfaces/environment/path.sh
+source;share/nxp_cup_interfaces/environment/pythonpath.sh

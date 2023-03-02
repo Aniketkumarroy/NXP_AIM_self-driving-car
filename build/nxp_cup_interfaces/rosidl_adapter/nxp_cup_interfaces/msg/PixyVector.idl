@@ -1,0 +1,46 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nxp_cup_interfaces/msg/PixyVector.msg
+// generated code does not contain a copyright notice
+
+
+module nxp_cup_interfaces {
+  module msg {
+    struct PixyVector {
+      uint64 timestamp;
+
+      @verbatim (language="comment", text=
+        " Vector 0 head and tail points" "\n"
+        " Tail of vector @ x")
+      uint8 m0_x0;
+
+      @verbatim (language="comment", text=
+        " Tail of vector @ y")
+      uint8 m0_y0;
+
+      @verbatim (language="comment", text=
+        " Head of vector @ x")
+      uint8 m0_x1;
+
+      @verbatim (language="comment", text=
+        " Head of vector @ y")
+      uint8 m0_y1;
+
+      @verbatim (language="comment", text=
+        " Vector 1 head and tail points" "\n"
+        " Tail of vector @ x")
+      uint8 m1_x0;
+
+      @verbatim (language="comment", text=
+        " Tail of vector @ y")
+      uint8 m1_y0;
+
+      @verbatim (language="comment", text=
+        " Head of vector @ x")
+      uint8 m1_x1;
+
+      @verbatim (language="comment", text=
+        " Head of vector @ y")
+      uint8 m1_y1;
+    };
+  };
+};

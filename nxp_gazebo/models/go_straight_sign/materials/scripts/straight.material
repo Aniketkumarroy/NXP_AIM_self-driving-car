@@ -1,0 +1,15 @@
+material straightSign/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture straight.png
+                scale 1 1
+            }
+        }
+    }
+}

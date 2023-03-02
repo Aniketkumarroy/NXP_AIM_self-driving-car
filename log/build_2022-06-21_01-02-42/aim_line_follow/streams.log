@@ -1,0 +1,32 @@
+[1.446s] Invoking command in '/home/pranay/ros2ws/build/aim_line_follow': AMENT_PREFIX_PATH=/home/pranay/ros2ws/install/nxp_cup_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pranay/ros2ws/install/nxp_cup_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/pranay/ros2ws/install/nxp_cup_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pranay/ros2ws/install/aim_line_follow/lib/python3.8/site-packages:/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pranay/ros2ws/install/aim_line_follow --editable --build-directory /home/pranay/ros2ws/build/aim_line_follow/build --no-deps install_data --install-dir /home/pranay/ros2ws/install/aim_line_follow
+[2.107s] running develop
+[2.481s] running egg_info
+[2.481s] creating aim_line_follow.egg-info
+[2.533s] writing aim_line_follow.egg-info/PKG-INFO
+[2.576s] writing dependency_links to aim_line_follow.egg-info/dependency_links.txt
+[2.708s] writing entry points to aim_line_follow.egg-info/entry_points.txt
+[2.795s] writing requirements to aim_line_follow.egg-info/requires.txt
+[2.839s] writing top-level names to aim_line_follow.egg-info/top_level.txt
+[2.841s] writing manifest file 'aim_line_follow.egg-info/SOURCES.txt'
+[2.902s] reading manifest file 'aim_line_follow.egg-info/SOURCES.txt'
+[2.902s] writing manifest file 'aim_line_follow.egg-info/SOURCES.txt'
+[2.994s] running build_ext
+[2.994s] Creating /home/pranay/ros2ws/install/aim_line_follow/lib/python3.8/site-packages/aim-line-follow.egg-link (link to .)
+[2.995s] Installing line_follower script to /home/pranay/ros2ws/install/aim_line_follow/lib/aim_line_follow
+[2.995s] 
+[2.995s] Installed /home/pranay/ros2ws/build/aim_line_follow
+[2.996s] running install_data
+[2.996s] creating /home/pranay/ros2ws/install/aim_line_follow/share/ament_index
+[2.996s] creating /home/pranay/ros2ws/install/aim_line_follow/share/ament_index/resource_index
+[2.996s] creating /home/pranay/ros2ws/install/aim_line_follow/share/ament_index/resource_index/packages
+[2.996s] copying resource/aim_line_follow -> /home/pranay/ros2ws/install/aim_line_follow/share/ament_index/resource_index/packages
+[2.996s] copying package.xml -> /home/pranay/ros2ws/install/aim_line_follow/share/aim_line_follow
+[2.996s] /home/pranay/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.996s]   warnings.warn(
+[2.996s] /home/pranay/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.996s]   warnings.warn(
+[2.996s] /home/pranay/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[2.996s]   warnings.warn(
+[2.996s] /home/pranay/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[2.996s]   warnings.warn(
+[3.028s] Invoked command in '/home/pranay/ros2ws/build/aim_line_follow' returned '0': AMENT_PREFIX_PATH=/home/pranay/ros2ws/install/nxp_cup_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pranay/ros2ws/install/nxp_cup_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/pranay/ros2ws/install/nxp_cup_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pranay/ros2ws/install/aim_line_follow/lib/python3.8/site-packages:/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pranay/ros2ws/install/aim_line_follow --editable --build-directory /home/pranay/ros2ws/build/aim_line_follow/build --no-deps install_data --install-dir /home/pranay/ros2ws/install/aim_line_follow

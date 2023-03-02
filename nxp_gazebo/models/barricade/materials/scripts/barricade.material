@@ -1,0 +1,15 @@
+material barricade/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture barricade.png
+                scale 1 1
+            }
+        }
+    }
+}

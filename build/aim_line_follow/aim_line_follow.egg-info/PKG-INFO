@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: aim-line-follow
+Version: 0.0.1
+Summary: Line follower for NXP Gazebo simulation (AIM Version)
+Maintainer: Landon Haugh
+Maintainer-email: landon.haugh@nxp.com
+License: Apache License 2.0

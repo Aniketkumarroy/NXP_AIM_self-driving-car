@@ -1,0 +1,6 @@
+{
+  "package_name": "nxp_cup_interfaces",
+  "non_idl_tuples": [
+    "/home/pranay/ros2ws/src/nxp_cup_interfaces:msg/PixyVector.msg"
+  ]
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name='Raceway2'>
+    <pose>0 0 0 0 0 0</pose>
+    <self_collide>false</self_collide>
+    <static>true</static>
+    <link name='Raceway2/Base'>
+      <visual name='Raceway2/TrackVisual'>
+        <pose>0 0 -.045 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.31 0.31 0.31</scale>
+            <uri>model://Raceway2/meshes/Track_2.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Raceway2/BridgeWallVisual'>
+        <pose>0 0 -0.05 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.31 0.31 0.31</scale>
+            <uri>model://Raceway2/meshes/BridgeWallCollision_2.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Raceway2/BridgeVisual'>
+        <pose>-0.16 -0.17 -0.05 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.319 0.317 0.31</scale>
+            <uri>model://Raceway2/meshes/bridge_exterior.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Raceway2/BridgeVisual2'>
+        <pose>0.12 0.1 -0.05 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.3 0.305 0.31</scale>
+            <uri>model://Raceway2/meshes/bridge_interior.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>      
+      <collision name='Raceway2/BridgeWallCollision'>
+        <pose>0 0 -0.05 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.31 0.31 0.31</scale>
+            <uri>model://Raceway2/meshes/BridgeWallCollision_2.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

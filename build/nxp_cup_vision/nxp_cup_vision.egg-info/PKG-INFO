@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nxp-cup-vision
+Version: 0.0.1
+Summary: NXP Cup track vision ROS2
+Author: Benjamin Perseghetti
+Author-email: bperseghetti@rudislabs.com
+Maintainer: Benjamin Perseghetti
+Maintainer-email: bperseghetti@rudislabs.com
+License: Apache License, Version 2.0

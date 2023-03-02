@@ -1,0 +1,30 @@
+material startPoint/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture race.png
+                scale 1 1
+            }
+        }
+    }
+}
+material finishLine/Diffuse
+{
+    recieve_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture finish.png
+                scale 1 1
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+source;share/aim_line_follow/hook/pythonpath.ps1
+source;share/aim_line_follow/hook/pythonpath.dsv
+source;share/aim_line_follow/hook/pythonpath.sh
+source;share/aim_line_follow/hook/ament_prefix_path.ps1
+source;share/aim_line_follow/hook/ament_prefix_path.dsv
+source;share/aim_line_follow/hook/ament_prefix_path.sh
+source;../../build/aim_line_follow/share/aim_line_follow/hook/pythonpath_develop.ps1
+source;../../build/aim_line_follow/share/aim_line_follow/hook/pythonpath_develop.dsv
+source;../../build/aim_line_follow/share/aim_line_follow/hook/pythonpath_develop.sh

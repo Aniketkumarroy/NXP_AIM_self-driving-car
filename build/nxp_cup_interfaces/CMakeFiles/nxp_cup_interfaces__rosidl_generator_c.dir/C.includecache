@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pranay/ros2ws/build/nxp_cup_interfaces/rosidl_generator_c/nxp_cup_interfaces/msg/detail/pixy_vector__functions.c
+nxp_cup_interfaces/msg/detail/pixy_vector__functions.h
+/home/pranay/ros2ws/build/nxp_cup_interfaces/rosidl_generator_c/nxp_cup_interfaces/msg/detail/nxp_cup_interfaces/msg/detail/pixy_vector__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/nxp_cup_interfaces/msg/detail/pixy_vector__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/nxp_cup_interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
+nxp_cup_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/nxp_cup_interfaces/msg/detail/nxp_cup_interfaces/msg/rosidl_generator_c__visibility_control.h
+nxp_cup_interfaces/msg/detail/pixy_vector__struct.h
+rosidl_generator_c/nxp_cup_interfaces/msg/detail/nxp_cup_interfaces/msg/detail/pixy_vector__struct.h
+
+rosidl_generator_c/nxp_cup_interfaces/msg/detail/pixy_vector__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/nxp_cup_interfaces/msg/rosidl_generator_c__visibility_control.h
+

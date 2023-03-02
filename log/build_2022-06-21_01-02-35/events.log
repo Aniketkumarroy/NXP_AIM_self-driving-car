@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (-) JobUnselected: {'identifier': 'gazebo_models'}
+[0.000251] (-) JobUnselected: {'identifier': 'nxp_cup_interfaces'}
+[0.000267] (-) JobUnselected: {'identifier': 'sim_gazebo_bringup'}
+[0.000355] (nxp_cup_vision) JobQueued: {'identifier': 'nxp_cup_vision', 'dependencies': OrderedDict([('nxp_cup_interfaces', '/home/pranay/ros2ws/install/nxp_cup_interfaces')])}
+[0.000596] (nxp_cup_vision) JobStarted: {'identifier': 'nxp_cup_vision'}
+[0.100077] (-) TimerEvent: {}
+[0.200260] (-) TimerEvent: {}
+[0.300410] (-) TimerEvent: {}
+[0.400545] (-) TimerEvent: {}
+[0.500658] (-) TimerEvent: {}
+[0.600771] (-) TimerEvent: {}
+[0.700933] (-) TimerEvent: {}
+[0.801113] (-) TimerEvent: {}
+[0.901286] (-) TimerEvent: {}
+[1.001440] (-) TimerEvent: {}
+[1.101565] (-) TimerEvent: {}
+[1.201678] (-) TimerEvent: {}
+[1.301809] (-) TimerEvent: {}
+[1.401955] (-) TimerEvent: {}
+[1.471501] (nxp_cup_vision) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/pranay/ros2ws/install/nxp_cup_vision', '--editable', '--build-directory', '/home/pranay/ros2ws/build/nxp_cup_vision/build', '--no-deps', 'install_data', '--install-dir', '/home/pranay/ros2ws/install/nxp_cup_vision'], 'cwd': '/home/pranay/ros2ws/build/nxp_cup_vision', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'pranay', 'SSH_AGENT_PID': '1702', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pranay/ros2ws/install/nxp_cup_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/pranay', 'OLDPWD': '/home/pranay/ros2ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1511', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/pranay/ros2ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pranay', 'JOURNAL_STREAM': '9:41925', '_': '/opt/ros/foxy/bin/ros2', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pranay', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/pranay/ros2ws/osrf/models:/home/pranay/ros2ws/nxp_gazebo/models:/tmp/gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pranay-Aspire-A715-75G:@/tmp/.ICE-unix/1740,unix/pranay-Aspire-A715-75G:/tmp/.ICE-unix/1740', 'INVOCATION_ID': '02880e92c1304129aa82865c9cbbe0a9', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2b38bf46_81ef_4702_801a_663b43d1be92', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pranay/ros2ws/install/nxp_cup_interfaces:/home/pranay/ros2ws/install/sim_gazebo_bringup:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/home/pranay/ros2ws/osrf:/home/pranay/ros2ws/nxp_gazebo:/tmp/gazebo', 'QT_IM_MODULE': 'ibus', 'GAZEBO_MODEL_DATABASE_URI': '', 'PWD': '/home/pranay/ros2ws/build/nxp_cup_vision', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GAZEBO_PLUGIN_PATH': '/opt/ros/foxy/lib', 'PYTHONPATH': '/home/pranay/ros2ws/install/nxp_cup_vision/lib/python3.8/site-packages:/home/pranay/ros2ws/install/nxp_cup_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/pranay/ros2ws/install/nxp_cup_interfaces:/home/pranay/ros2ws/install/sim_gazebo_bringup'}, 'shell': False}
+[1.502073] (-) TimerEvent: {}
+[1.602240] (-) TimerEvent: {}
+[1.702406] (-) TimerEvent: {}
+[1.802571] (-) TimerEvent: {}
+[1.902720] (-) TimerEvent: {}
+[2.002853] (-) TimerEvent: {}
+[2.102988] (-) TimerEvent: {}
+[2.135869] (nxp_cup_vision) StdoutLine: {'line': b'running develop\n'}
+[2.203097] (-) TimerEvent: {}
+[2.303245] (-) TimerEvent: {}
+[2.403439] (-) TimerEvent: {}
+[2.503615] (-) TimerEvent: {}
+[2.513246] (nxp_cup_vision) StdoutLine: {'line': b'running egg_info\n'}
+[2.513350] (nxp_cup_vision) StdoutLine: {'line': b'creating nxp_cup_vision.egg-info\n'}
+[2.565604] (nxp_cup_vision) StdoutLine: {'line': b'writing nxp_cup_vision.egg-info/PKG-INFO\n'}
+[2.603711] (-) TimerEvent: {}
+[2.609393] (nxp_cup_vision) StdoutLine: {'line': b'writing dependency_links to nxp_cup_vision.egg-info/dependency_links.txt\n'}
+[2.703813] (-) TimerEvent: {}
+[2.740712] (nxp_cup_vision) StdoutLine: {'line': b'writing entry points to nxp_cup_vision.egg-info/entry_points.txt\n'}
+[2.803915] (-) TimerEvent: {}
+[2.829324] (nxp_cup_vision) StdoutLine: {'line': b'writing requirements to nxp_cup_vision.egg-info/requires.txt\n'}
+[2.873502] (nxp_cup_vision) StdoutLine: {'line': b'writing top-level names to nxp_cup_vision.egg-info/top_level.txt\n'}
+[2.874886] (nxp_cup_vision) StdoutLine: {'line': b"writing manifest file 'nxp_cup_vision.egg-info/SOURCES.txt'\n"}
+[2.904016] (-) TimerEvent: {}
+[2.937100] (nxp_cup_vision) StdoutLine: {'line': b"reading manifest file 'nxp_cup_vision.egg-info/SOURCES.txt'\n"}
+[2.937565] (nxp_cup_vision) StdoutLine: {'line': b"writing manifest file 'nxp_cup_vision.egg-info/SOURCES.txt'\n"}
+[3.004124] (-) TimerEvent: {}
+[3.029426] (nxp_cup_vision) StdoutLine: {'line': b'running build_ext\n'}
+[3.029543] (nxp_cup_vision) StdoutLine: {'line': b'Creating /home/pranay/ros2ws/install/nxp_cup_vision/lib/python3.8/site-packages/nxp-cup-vision.egg-link (link to .)\n'}
+[3.029963] (nxp_cup_vision) StdoutLine: {'line': b'Installing nxp_track_vision script to /home/pranay/ros2ws/install/nxp_cup_vision/lib/nxp_cup_vision\n'}
+[3.030358] (nxp_cup_vision) StdoutLine: {'line': b'\n'}
+[3.030520] (nxp_cup_vision) StdoutLine: {'line': b'Installed /home/pranay/ros2ws/build/nxp_cup_vision\n'}
+[3.030629] (nxp_cup_vision) StdoutLine: {'line': b'running install_data\n'}
+[3.030873] (nxp_cup_vision) StdoutLine: {'line': b'creating /home/pranay/ros2ws/install/nxp_cup_vision/share/ament_index\n'}
+[3.030943] (nxp_cup_vision) StdoutLine: {'line': b'creating /home/pranay/ros2ws/install/nxp_cup_vision/share/ament_index/resource_index\n'}
+[3.030994] (nxp_cup_vision) StdoutLine: {'line': b'creating /home/pranay/ros2ws/install/nxp_cup_vision/share/ament_index/resource_index/packages\n'}
+[3.031042] (nxp_cup_vision) StdoutLine: {'line': b'copying resource/nxp_cup_vision -> /home/pranay/ros2ws/install/nxp_cup_vision/share/ament_index/resource_index/packages\n'}
+[3.031090] (nxp_cup_vision) StdoutLine: {'line': b'copying package.xml -> /home/pranay/ros2ws/install/nxp_cup_vision/share/nxp_cup_vision\n'}
+[3.031141] (nxp_cup_vision) StderrLine: {'line': b'/home/pranay/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.031212] (nxp_cup_vision) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.031261] (nxp_cup_vision) StderrLine: {'line': b'/home/pranay/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.031311] (nxp_cup_vision) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.031358] (nxp_cup_vision) StderrLine: {'line': b'/home/pranay/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[3.031405] (nxp_cup_vision) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.031452] (nxp_cup_vision) StderrLine: {'line': b'/home/pranay/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[3.031499] (nxp_cup_vision) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.064531] (nxp_cup_vision) CommandEnded: {'returncode': 0}
+[3.073835] (nxp_cup_vision) JobEnded: {'identifier': 'nxp_cup_vision', 'rc': 0}
+[3.074346] (-) EventReactorShutdown: {}

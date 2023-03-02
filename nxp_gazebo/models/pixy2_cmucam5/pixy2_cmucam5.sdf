@@ -1,0 +1,69 @@
+<?xml version='1.0' ?>
+<sdf version='1.5'>
+  <model name='pixy2_cmucam5'>
+  	<pose>0 0 .05 0 0 0</pose>
+    <static>false</static>
+    <link name="Pixy2CMUcam5_link">
+      <!--<inertial>
+        <mass>0.00003</mass>
+        <inertia>
+          <ixx>2.21000000e-11</ixx>
+          <ixy>0.000000</ixy>
+          <iyy>2.21000000e-11</iyy>
+          <ixz>0.000000</ixz>
+          <iyz>0.000000</iyz>
+          <izz>2.21000000e-11</izz>
+        </inertia>
+      </inertial>-->
+      <visual name="Pixy2CMUcam5_visual">
+        <pose>0 0 0 1.57079632679 0 1.57079632679</pose>
+        <geometry>
+          <mesh>
+            <uri>model://pixy2_cmucam5/meshes/Pixy2CMUcam5.obj</uri>
+            <scale>.001 .001 .001</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <!--Image sensor: Aptina MT9M114-->
+      <sensor type="camera" name="Pixy2CMUcam5_sensor">
+        <always_on>true</always_on>
+        <update_rate>30.0</update_rate>
+        <camera name="head">
+          <!--horizontal_fov should be 1.0472 but need it wider with lens-->
+          <horizontal_fov>1.5</horizontal_fov>
+          <image>
+            <width>1296</width>
+            <height>936</height> <!--should be 976 but need to be 936 for 18x scale-->
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>0.02</near>
+            <far>100</far>
+          </clip>
+          <lens>
+            <type>gnomonical</type>
+            <scale_to_hfov>1</scale_to_hfov>
+          </lens>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.007</stddev>
+          </noise>
+        </camera>
+        <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+          <robotNamespace></robotNamespace>
+          <cameraName>Pixy2CMUcam5</cameraName>
+          <imageTopicName>image_raw</imageTopicName>
+          <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+          <frameName>camera_link</frameName>
+          <hackBaseline>0.07</hackBaseline>
+          <distortionK1>0.0</distortionK1>
+          <distortionK2>0.0</distortionK2>
+          <distortionK3>0.0</distortionK3>
+          <distortionT1>0.0</distortionT1>
+          <distortionT2>0.0</distortionT2>
+        </plugin>
+      </sensor>
+    </link>
+  </model>
+</sdf>

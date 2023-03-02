@@ -1,0 +1,45 @@
+[0.008s] Invoking command in '/home/pranay/ros2ws/build/sim_gazebo_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/pranay/ros2ws/src/sim_gazebo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pranay/ros2ws/install/sim_gazebo_bringup
+[0.149s] -- The C compiler identification is GNU 9.4.0
+[0.278s] -- The CXX compiler identification is GNU 9.4.0
+[0.285s] -- Check for working C compiler: /usr/bin/cc
+[0.339s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.340s] -- Detecting C compiler ABI info
+[0.388s] -- Detecting C compiler ABI info - done
+[0.398s] -- Detecting C compile features
+[0.398s] -- Detecting C compile features - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++
+[0.456s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.457s] -- Detecting CXX compiler ABI info
+[0.514s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Detecting CXX compile features
+[0.525s] -- Detecting CXX compile features - done
+[0.528s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.548s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.548s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.723s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.789s] -- Configuring done
+[0.790s] -- Generating done
+[0.791s] -- Build files have been written to: /home/pranay/ros2ws/build/sim_gazebo_bringup
+[0.793s] Invoked command in '/home/pranay/ros2ws/build/sim_gazebo_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/pranay/ros2ws/src/sim_gazebo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pranay/ros2ws/install/sim_gazebo_bringup
+[0.795s] Invoking command in '/home/pranay/ros2ws/build/sim_gazebo_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pranay/ros2ws/build/sim_gazebo_bringup -- -j8 -l8
+[0.822s] Invoked command in '/home/pranay/ros2ws/build/sim_gazebo_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pranay/ros2ws/build/sim_gazebo_bringup -- -j8 -l8
+[0.845s] Invoking command in '/home/pranay/ros2ws/build/sim_gazebo_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/pranay/ros2ws/build/sim_gazebo_bringup
+[0.851s] -- Install configuration: ""
+[0.852s] -- Execute custom install script
+[0.852s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup//launch/sim_gazebo.launch.py
+[0.859s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/ament_index/resource_index/package_run_dependencies/sim_gazebo_bringup
+[0.866s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/ament_index/resource_index/parent_prefix_path/sim_gazebo_bringup
+[0.873s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup/environment/ament_prefix_path.sh
+[0.880s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup/environment/ament_prefix_path.dsv
+[0.887s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup/environment/path.sh
+[0.894s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup/environment/path.dsv
+[0.900s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup/local_setup.bash
+[0.907s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup/local_setup.sh
+[0.914s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup/local_setup.zsh
+[0.921s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup/local_setup.dsv
+[0.929s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup/package.dsv
+[0.935s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/ament_index/resource_index/packages/sim_gazebo_bringup
+[0.942s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup/cmake/sim_gazebo_bringupConfig.cmake
+[0.949s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup/cmake/sim_gazebo_bringupConfig-version.cmake
+[0.956s] -- Symlinking: /home/pranay/ros2ws/install/sim_gazebo_bringup/share/sim_gazebo_bringup/package.xml
+[0.963s] Invoked command in '/home/pranay/ros2ws/build/sim_gazebo_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/pranay/ros2ws/build/sim_gazebo_bringup

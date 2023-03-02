@@ -1,0 +1,153 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='traffic_light_2'>
+    <link name='link_0'>
+      <inertial>
+        <mass>0.0221441</mass>
+        <inertia>
+          <ixx>0.00113117</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000137192</iyy>
+          <iyz>0</iyz>
+          <izz>0.00104885</izz>
+        </inertia>
+        <pose>0 0 0 0 -0 0</pose>
+      </inertial>
+      <pose>-0.034548 -0.084737 0.049326 0 -0 0</pose>
+      <visual name='visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.121937 0.743981 0.243877</size>
+          </box>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Black</name>
+          </script>
+          <shader type='pixel'/>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <transparency>0</transparency>
+        <cast_shadows>1</cast_shadows>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.121937 0.743981 0.243877</size>
+          </box>
+        </geometry>
+        
+      </collision>
+    </link>
+    <link name='link_1'>
+      <inertial>
+        <mass>0.00190017</mass>
+        <inertia>
+          <ixx>1.948e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>7.59e-06</iyy>
+          <iyz>0</iyz>
+          <izz>1.221e-05</izz>
+        </inertia>
+        <pose>0 0 0 0 -0 0</pose>
+      </inertial>
+      <pose>0.039105 -0.276538 0.049326 0 -0 0</pose>
+      <gravity>1</gravity>
+      <self_collide>0</self_collide>
+      <kinematic>0</kinematic>
+      <enable_wind>0</enable_wind>
+      <visual name='visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.031832 0.275892 0.216628</size>
+          </box>
+        </geometry>
+        <plugin name='blink' filename='libBlinkVisualPlugin.so'>
+          <color_a>0 1 0 1</color_a>
+          <color_b>1 0 0 1</color_b>
+          <period>10</period>
+        </plugin>
+        <transparency>0</transparency>
+        <cast_shadows>1</cast_shadows>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.031832 0.275892 0.216628</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='link_2'>
+      <inertial>
+        <mass>0.00159248</mass>
+        <inertia>
+          <ixx>4.7417e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>4.7417e-06</iyy>
+          <iyz>0</iyz>
+          <izz>1.86817e-06</izz>
+        </inertia>
+        <pose>0 0 0 0 -0 0</pose>
+      </inertial>
+      <pose>-0.021688 0.249252 -0.1452 0 -0 0</pose>
+      <visual name='visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0484379</radius>
+            <length>0.169387</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <shader type='pixel'/>
+        </material>
+        <transparency>0</transparency>
+        <cast_shadows>1</cast_shadows>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.048438</radius>
+            <length>0.169387</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+    <joint name='link_0_JOINT_0' type='fixed'>
+      <parent>link_0</parent>
+      <child>link_1</child>
+      <pose>0 0 0 0 -0 0</pose>
+      
+    </joint>
+    <joint name='link_0_JOINT_1' type='fixed'>
+      <parent>link_0</parent>
+      <child>link_1_clone</child>
+      <pose>0 0 0 0 -0 0</pose>
+      
+    </joint>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

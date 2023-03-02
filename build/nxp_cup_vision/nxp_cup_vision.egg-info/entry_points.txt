@@ -1,0 +1,2 @@
+[console_scripts]
+nxp_track_vision = nxp_cup_vision.nxp_track_vision:main

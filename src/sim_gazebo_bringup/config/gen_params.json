@@ -1,0 +1,598 @@
+{	"setup":{
+		"autopilot": {},
+		"gazebo": {
+			"gazebo_models": {
+				"gazebo_model_repo_0":{
+					"repo": "git@github.com:rudislabs/nxp_gazebo.git",
+					"version": "aim",
+					"name": "nxp_gazebo"
+				},
+				"gazebo_model_repo_1":{
+					"repo": "git@github.com:osrf/gazebo_models.git",
+					"version": "master",
+					"name": "osrf/models"
+				}
+			},
+			"gazebo_plugins": {}
+		},
+		"ros2": {
+			"ros2_repo_0":{
+				"repo": "git@github.com:rudislabs/nxp_cup_interfaces.git",
+				"version": "aim",
+				"build_package": "nxp_cup_interfaces",
+				"build_prefix": "--packages-select",
+				"build_postfix": "--symlink-install"
+			},
+			"ros2_repo_1":{
+				"repo": "git@github.com:rudislabs/nxp_cup_vision.git",
+				"version": "aim",
+				"build_package": "nxp_cup_vision",
+				"build_prefix": "--packages-select",
+				"build_postfix": "--symlink-install"
+			},
+			"ros2_repo_2":{
+				"repo": "git@github.com:rudislabs/aim_line_follow.git",
+				"version": "main",
+				"build_package": "aim_line_follow",
+				"build_prefix": "--packages-select",
+				"build_postfix": "--symlink-install"
+			}
+			
+		},
+		"system": {
+			"set_environment": {
+				"environment_0": {
+					"variable": "GAZEBO_MODEL_DATABASE_URI",
+					"value": "",
+					"method": "overwrite"
+				},
+				"environment_1": {
+					"variable": "GAZEBO_RESOURCE_PATH",
+					"value": "/usr/share/gazebo-11",
+					"method": "prepend"
+				},
+				"environment_2": {
+					"variable": "GAZEBO_PLUGIN_PATH",
+					"value": "/opt/ros/foxy/lib",
+					"method": "prepend"
+				}
+			}
+		}
+	},
+	"verbose": {
+		"gzclient": true,
+		"gzserver": true
+	},
+	"nodes": {
+		"ros2_node_0":{
+			"timing": "post-spawn",
+			"package": "nxp_cup_vision",
+			"executable": "nxp_track_vision",
+			"name": "nxp_track_vision_0",
+			"output": "screen",
+			"parameters": [	{"pyramid_down": 3},
+							{"camera_image": "trackImage0"},
+							{"debug_image": "debugImage0"},
+							{"namespace": "cupcar0"},
+							{"mask_ratio_array": [1.0, 0.4]}
+
+						]
+		},
+		"ros2_node_1":{
+			"timing": "post-spawn",
+			"package": "rqt_image_view",
+			"executable": "rqt_image_view",
+			"name": "rqt_image_view_0",
+			"output": "screen",
+			"parameters": []
+		},
+		"ros2_node_2":{
+			"timing": "post-spawn",
+			"package": "aim_line_follow",
+			"executable": "line_follower",
+			"name": "line_follower_0",
+			"output": "screen",
+			"parameters": []
+		}
+	},
+	"world_params": {
+		"gazebo_name": "nxp_gazebo",
+		"generate_world": 1,
+		"generate_params":{
+			"world_name": "canvas",
+			"sdf_version": "1.6",
+			"use_spherical_coords": 1,
+			"lat_lon_alt": [28.6139, -77.2090, 100],
+			"sun_model": "sunUTC",
+			"sun_utc_date": "now",
+			"ambient_light": 0.5,
+			"background_light": 0.15,
+			"shadows": 0,
+			"cloud_speed": 12,
+			"wind_speed": "NotSet",
+			"embedded_models": {
+				"embed_model_0": {
+					"model": "Grand_Finale_Track",
+					"name": "Raceway_1_track",
+					"pose": "0 0 0.04000 0 0 0"
+				},
+				"embed_model_1": {
+					"model": "turn_right_sign",
+					"name": "traffic_sign_1",
+					"pose": "9.402500 -1.977447 0.148539 0 0 0"
+				},
+				"embed_model_2": {
+					"model": "turn_right_sign",
+					"name": "traffic_sign_2",
+					"pose": "9.456667 -1.139340 0.148539 0 0 -0.071725"
+				},
+				"embed_model_3": {
+					"model": "turn_right_sign",
+					"name": "traffic_sign_3",
+					"pose": "9.883320 7.044300 0.148539 0 0 0.303384"
+				},
+				"embed_model_4": {
+					"model": "turn_right_sign",
+					"name": "traffic_sign_4",
+					"pose": "9.803770 7.857500 0.148539 0 0 -0.258759"
+				},
+				"embed_model_5": {
+					"model": "turn_left_sign",
+					"name": "traffic_sign_5",
+					"pose": "0.001388 2.479030 0.136295 0 0 1.533982"
+				},
+				"embed_model_6": {
+					"model": "turn_left_sign",
+					"name": "traffic_sign_6",
+					"pose": "-0.512472 3.303309 0.136295 0 0 0.658347"
+				},
+				"embed_model_7": {
+					"model": "turn_left_sign",
+					"name": "traffic_sign_7",
+					"pose": "8.487010 7.067690 0.136295 0 0 -1.652750"
+				},
+				"embed_model_8": {
+					"model": "turn_left_sign",
+					"name": "traffic_sign_8",
+					"pose": "9.562090 7.052380 0.136295 0 0 -1.652750"
+				},
+				"embed_model_9": {
+					"model": "turn_left_sign",
+					"name": "traffic_sign_9",
+					"pose": "8.457190 7.796263 0.136295 0 0 -1.652750"
+				},
+				"embed_model_10": {
+					"model": "turn_right_sign",
+					"name": "traffic_sign_10",
+					"pose": "8.281400 -1.139660 0.148539 0 0 -3.097239"
+				},
+				"embed_model_11": {
+					"model": "turn_right_sign",
+					"name": "traffic_sign_11",
+					"pose": "8.303630 -1.948590 0.148539 0 0 -3.097239"
+				},
+				"embed_model_12": {
+					"model": "stop_traffic_sign",
+					"name": "traffic_sign_12",
+					"pose": "1.844553 1.162403 0.148539 0 0 1.613485"
+				},
+				"embed_model_13": {
+					"model": "start_sign",
+					"name": "traffic_sign_13",
+					"pose": "0.440220 -0.329911 0.148895 0 0 2.236049"
+				},
+				"embed_model_14": {
+					"model": "finish_line",
+					"name": "finish_line",
+					"pose": "1.783834 1.444477 0.013138 0 0 1.572164"
+				},
+				"embed_model_15": {
+					"model": "start_point",
+					"name": "start_point_1",
+					"pose": "-0.612618 -0.013972 0.045986 0 0 0"
+				},
+				"embed_model_16": {
+					"model": "start_point",
+					"name": "start_point_2",
+					"pose": "0.612618 -0.013972 0.045986 0 0 0"
+				},
+				"embed_model_17": {
+					"model": "traffic_light_red",
+					"name": "traffic_light",
+					"pose": "1.715409 7.437574 0.682362 0 0 1.625140"
+				},
+				"embed_model_18": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_1",
+					"pose": "7.612168 7.240761 0.005632 0 0 0"
+				},
+				"embed_model_19": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_2",
+					"pose": "7.509560 7.331951 0.005632 0 0 0"
+				},
+				"embed_model_20": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_3",
+					"pose": "7.331651 7.334652 0.005632 0 0 0"
+				},
+				"embed_model_21": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_4",
+					"pose": "7.170449 7.264543 0.005632 0 0 0"
+				},
+				"embed_model_22": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_5",
+					"pose": "6.775625 7.651557 0.005632 0 0 0"
+				},
+				"embed_model_23": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_6",
+					"pose": "6.634766 7.539160 0.005632 0 0 0"
+				},
+				"embed_model_24": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_7",
+					"pose": "6.974705 7.187800 0.005632 0 0 0"
+				},
+				"embed_model_25": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_8",
+					"pose": "6.448994 7.532349 0.005632 0 0 0"
+				},
+				"embed_model_26": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_9",
+					"pose": "6.360505 7.613204 0.005632 0 0 0"
+				},
+				"embed_model_27": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_10",
+					"pose": "6.000159 7.161807 0.005632 0 0 0"
+				},
+				"embed_model_28": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_11",
+					"pose": "5.796370 7.547873 0.005632 0 0 0"
+				},
+				"embed_model_29": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_12",
+					"pose": "7.697832 7.159824 0.005632 0 0 0"
+				},
+				"embed_model_30": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_13",
+					"pose": "5.609410 7.653865 0.005632 0 0 0"
+				},
+				"embed_model_31": {
+					"model": "Construction_Cone_mini",
+					"name": "cone_14",
+					"pose": "5.345370 7.579621 0.005632 0 0 0"
+				},
+				"embed_model_32": {
+					"model": "barricade",
+					"name": "barricade_1",
+					"pose": "1.552310 8.849634 0.487573 0 0 0"
+				},
+				"embed_model_33": {
+					"model": "barricade",
+					"name": "barricade_2",
+					"pose": "12.893254 5.917786 0.042556 0 0 -0.025547"
+				},
+				"embed_model_34": {
+					"model": "barricade",
+					"name": "barricade_3",
+					"pose": "12.488200 5.465990 0.042556 0 0 -0.218661"
+				},
+				"embed_model_35": {
+					"model": "barricade",
+					"name": "barricade_4",
+					"pose": "13.132400 5.127830 0.042556 0 0 -0.218661"
+				},
+				"embed_model_36": {
+					"model": "barricade",
+					"name": "barricade_5",
+					"pose": "12.484065 4.944537 0.042556 0 0 -0.218661"
+				},
+				"embed_model_37": {
+					"model": "barricade",
+					"name": "barricade_6",
+					"pose": "12.949740 4.383964 0.042556 0 0 -0.334116"
+				},
+				"embed_model_38": {
+					"model": "barricade",
+					"name": "barricade_7",
+					"pose": "12.516300 3.706770 0.042556 0 0 -1.263369"
+				},
+				"embed_model_39": {
+					"model": "barricade",
+					"name": "barricade_8",
+					"pose": "11.806300 3.750260 0.042556 0 0 -1.263369"
+				},
+				"embed_model_40": {
+					"model": "barricade",
+					"name": "barricade_9",
+					"pose": "8.617410 3.204902 0.042556 0 0 -0.048239"
+				},
+				"embed_model_41": {
+					"model": "beer",
+					"name": "can",
+					"pose": "8.387030 3.097294 -0.000002 0 0 0.004894"
+				},
+				
+				"embed_model_43": {
+					"model": "dumpster2",
+					"name": "dumpster_2",
+					"pose": "9.054320 3.059220 0 0 0 0"
+				},
+				"embed_model_44": {
+					"model": "dumpster2",
+					"name": "dumpster_3",
+					"pose": "7.120070 4.796838 0.433025 0 0 0"
+				},
+				"embed_model_45": {
+					"model": "car",
+					"name": "car_1",
+					"pose": "4.272600 -0.428299 0 0 0 0"
+				},
+				"embed_model_46": {
+					"model": "car_red",
+					"name": "car_2",
+					"pose": "0.695777 -2.381700 0 0 0 0"
+				},"embed_model_47": {
+					"model": "car_blue",
+					"name": "car_3",
+					"pose": "10.286200 -4.549350 0 0 0 0"
+				},"embed_model_48": {
+					"model": "car_red",
+					"name": "car_4",
+					"pose": "12.041410 7.038221 0 0 0 -0.455982"
+				},"embed_model_49": {
+					"model": "car_blue",
+					"name": "car_5",
+					"pose": "11.597200 7.240060 0 0 0 0"
+				},"embed_model_50": {
+					"model": "car",
+					"name": "car_6",
+					"pose": "3.469760 7.886740 0 0 0 -1.052809"
+				},"embed_model_51": {
+					"model": "car_blue",
+					"name": "car_7",
+					"pose": "4.226350 7.801730 0 0 0 2.009600"
+				},"embed_model_52": {
+					"model": "car_red",
+					"name": "car_8",
+					"pose": "3.806930 7.780270 0 0 0 -1.052814"
+				},"embed_model_53": {
+					"model": "car_blue",
+					"name": "car_9",
+					"pose": "3.254790 7.816110 0 0 0 -1.064601"
+				},"embed_model_54": {
+					"model": "car_blue",
+					"name": "car_10",
+					"pose": "3.759180 7.045848 0 0 0 0"
+				},"embed_model_55": {
+					"model": "car_red",
+					"name": "car_11",
+					"pose": "4.223640 6.954260 0 0 0 1.172812"
+				},
+				"embed_model_56": {
+					"model": "car_red",
+					"name": "car_12",
+					"pose": "3.330235 6.953325 0 0 0 1.319436"
+				},
+				"embed_model_57": {
+					"model": "person_1",
+					"name": "person_1",
+					"pose": "12.970000 -3.012290 0 0 0 1.319436"
+				},
+				"embed_model_58": {
+					"model": "person_1",
+					"name": "person_2",
+					"pose": "5.342956 4.135203 0.449260 0 0 0"
+				},
+				"embed_model_59": {
+					"model": "person_2",
+					"name": "person_5",
+					"pose": "4.649300 10.489862 0.424585 0 0 0"
+				},
+				"embed_model_60": {
+					"model": "person_2",
+					"name": "person_3",
+					"pose": "1.128260 1.773810 0 0 0 0"
+				},
+				"embed_model_61": {
+					"model": "person_2",
+					"name": "person_4",
+					"pose": "8.473800 -3.183250 0 0 0 0"
+				},
+				"embed_model_62": {
+					"model": "coke_can",
+					"name": "can_2",
+					"pose": "2.218836 4.614859 0.456268 0 0 0"
+				},
+				"embed_model_63": {
+					"model": "fire_hydrant2",
+					"name": "fire_hydrant_1",
+					"pose": "0.651545 2.982810 0 0 0 0"
+				},
+				"embed_model_64": {
+					"model": "fire_hydrant2",
+					"name": "fire_hydrant_2",
+					"pose": "2.857220 -0.326151 0 0 0 0"
+				},
+				"embed_model_65": {
+					"model": "postbox2",
+					"name": "postbox",
+					"pose": "11.322000 -1.340280 0 0 0 0"
+				},
+				"embed_model_66": {
+					"model": "oak_tree_mini",
+					"name": "tree_1",
+					"pose": "11.424100 -4.529290 0 0 0 0"
+				},
+				"embed_model_67": {
+					"model": "oak_tree_mini",
+					"name": "tree_2",
+					"pose": "11.581800 -4.538950 0 0 0 0"
+				},
+				"embed_model_68": {
+					"model": "oak_tree_mini",
+					"name": "tree_3",
+					"pose": "12.034900 -4.353690 0 0 0 0"
+				},
+				"embed_model_69": {
+					"model": "oak_tree_mini",
+					"name": "tree_4",
+					"pose": "11.424100 -4.431000 0 0 0 0"
+				},
+				"embed_model_70": {
+					"model": "oak_tree_mini",
+					"name": "tree_5",
+					"pose": "12.230900 -4.245590 0 0 0 0"
+				},
+				"embed_model_71": {
+					"model": "oak_tree_mini",
+					"name": "tree_6",
+					"pose": "12.326000 -4.135820 0 0 0 0"
+				},
+				"embed_model_72": {
+					"model": "oak_tree_mini",
+					"name": "tree_7",
+					"pose": "12.504000 -3.970900 0 0 0 0"
+				},
+				"embed_model_73": {
+					"model": "oak_tree_mini",
+					"name": "tree_8",
+					"pose": "12.646600 -3.745520 0 0 0 0"
+				},
+				"embed_model_74": {
+					"model": "oak_tree_mini",
+					"name": "tree_9",
+					"pose": "12.108400 -3.330360 0 0 0 0"
+				},
+				"embed_model_75": {
+					"model": "oak_tree_mini",
+					"name": "tree_10",
+					"pose": "11.909600 -3.485480 0 0 0 0"
+				},
+				"embed_model_77": {
+					"model": "oak_tree_mini",
+					"name": "tree_12",
+					"pose": "12.028000 -3.536200 0 0 0 0"
+				},
+				"embed_model_78": {
+					"model": "oak_tree_mini",
+					"name": "tree_13",
+					"pose": "11.794300 -3.670010 0 0 0 0"
+				},
+				"embed_model_79": {
+					"model": "oak_tree_mini",
+					"name": "tree_14",
+					"pose": "11.508400 -3.821190 0 0 0 0"
+				},
+				"embed_model_80": {
+					"model": "oak_tree_mini",
+					"name": "tree_15",
+					"pose": "11.727300 -2.093740 0 0 0 0"
+				},
+				"embed_model_81": {
+					"model": "oak_tree_mini",
+					"name": "tree_16",
+					"pose": "11.636100 -1.341640 0 0 0 0"
+				},
+				"embed_model_82": {
+					"model": "oak_tree_mini",
+					"name": "tree_18",
+					"pose": "6.169830 -1.006910 0 0 0 0"
+				},
+				"embed_model_83": {
+					"model": "oak_tree_mini",
+					"name": "tree_17",
+					"pose": "1.298290 -2.406160 0 0 0 0"
+				},
+				"embed_model_84": {
+					"model": "ambulance_mini",
+					"name": "ambulance",
+					"pose": "11.465000 -2.144160 0 0 0 0"
+				},
+				"embed_model_85": {
+					"model": "banner_1",
+					"name": "banner_1",
+					"pose": "5.117599 2.126327 0.003980 0 0 1.547815"
+				},
+				"embed_model_86": {
+					"model": "banner_2",
+					"name": "banner_2",
+					"pose": "10.470800 -2.936910 0.018443 0 0 0"
+				},
+				"embed_model_87": {
+					"model": "warehouse_robot",
+					"name": "building_1",
+					"pose": "0.198373 1.563246 0 0 0 0"
+				},
+				"embed_model_88": {
+					"model": "office",
+					"name": "building_2",
+					"pose": "5.736435 5.905386 0 0 0 -3.120332"
+				},
+				"embed_model_89": {
+					"model": "fast_food_mini",
+					"name": "building_3",
+					"pose": "11.042834 8.189978 0.147973 0 0 -0.092445"
+				},
+				"embed_model_90": {
+					"model": "House_mini",
+					"name": "building_4",
+					"pose": "10.608403 0.513155 0 0 0 1.552974"
+				},
+				"embed_model_91": {
+					"model": "Gas_Station2",
+					"name": "building_5",
+					"pose": "7.038173 -3.535317 0 0 0 -1.590303"
+				},
+				"embed_model_92": {
+					"model": "post_office_mini",
+					"name": "building_6",
+					"pose": "3.928787 -1.176900 0 0 0 0"
+				},
+				"embed_model_93": {
+					"model": "turn_right_sign",
+					"name": "traffic_sign_01",
+					"pose": "10.608500 6.854780 0.148539 0 0 0.303384"
+				},
+				"embed_model_94": {
+					"model": "turn_right_sign",
+					"name": "traffic_sign_02",
+					"pose": "10.487200 7.780770 0.148539 0 0 -0.412466"
+				}
+				
+				
+			},
+			"video_widget": "NotSet",
+			"set_physics": 0,
+			"update_rate": 100,
+			"realtime_factor": 1.0,
+			"ode_threads": 2
+		}
+	},
+	"models": {
+		"model_params_0": {
+			"gazebo_name": "nxp_gazebo",
+			"spawn_pose": [0,0,0.1,0,0,-1.5],
+			"instance": 0,
+			"generate_params":{
+				"controller": "ros2",
+				"base_model": "nxp_cupcar",
+				"sdf_version": 1.6,
+				"camera_image": "trackImage0",
+				"namespace": "cupcar0",
+				"model_name": "NotSet",
+				"hq_wheel": "0",
+				"hq_frame": "0"
+			}
+		}
+	}
+}

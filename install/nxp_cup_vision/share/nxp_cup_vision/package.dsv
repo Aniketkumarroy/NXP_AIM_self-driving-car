@@ -1,0 +1,9 @@
+source;share/nxp_cup_vision/hook/pythonpath.ps1
+source;share/nxp_cup_vision/hook/pythonpath.dsv
+source;share/nxp_cup_vision/hook/pythonpath.sh
+source;share/nxp_cup_vision/hook/ament_prefix_path.ps1
+source;share/nxp_cup_vision/hook/ament_prefix_path.dsv
+source;share/nxp_cup_vision/hook/ament_prefix_path.sh
+source;../../build/nxp_cup_vision/share/nxp_cup_vision/hook/pythonpath_develop.ps1
+source;../../build/nxp_cup_vision/share/nxp_cup_vision/hook/pythonpath_develop.dsv
+source;../../build/nxp_cup_vision/share/nxp_cup_vision/hook/pythonpath_develop.sh

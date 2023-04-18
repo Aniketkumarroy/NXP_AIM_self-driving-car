@@ -1,10 +1,7 @@
 
 The task is to move the car using only the pixy camera provided along with the car in the arena on the laid out track which includes under the over bridge, over the over bridge, zig zag tracks and some speed bumps.
 
-## Qualification Task
-![image](https://user-images.githubusercontent.com/79053599/179040830-9c331b0b-118d-47cb-a063-781e238e5e18.png)
-
-## Qualification Round Demo Video
+## Qualification Round Task Video (Click the image)
 [![Watch the Video](https://user-images.githubusercontent.com/79053599/179040830-9c331b0b-118d-47cb-a063-781e238e5e18.png)](https://youtu.be/tsFfwom65eM)
 
 

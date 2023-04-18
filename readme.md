@@ -5,7 +5,8 @@ The task is to move the car using only the pixy camera provided along with the c
 ![image](https://user-images.githubusercontent.com/79053599/179040830-9c331b0b-118d-47cb-a063-781e238e5e18.png)
 
 ## Qualification Round Demo Video
-https://user-images.githubusercontent.com/86041791/232785194-2b82d3d8-8229-4307-98a3-4554c55a6587.mp4
+https://youtu.be/tsFfwom65eM![thumbnail](https://user-images.githubusercontent.com/86041791/232789869-c3a6ff3a-70e1-449c-980c-e1746e0c0df7.png)
+
 
 
 ### Final Task Path

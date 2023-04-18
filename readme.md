@@ -1,11 +1,16 @@
 
 The task is to move the car using only the pixy camera provided along with the car in the arena on the laid out track which includes under the over bridge, over the over bridge, zig zag tracks and some speed bumps.
 
+## Qualification Task
 ![image](https://user-images.githubusercontent.com/79053599/179040830-9c331b0b-118d-47cb-a063-781e238e5e18.png)
+
+## Qualification Round Demo Video
+https://user-images.githubusercontent.com/86041791/232785194-2b82d3d8-8229-4307-98a3-4554c55a6587.mp4
 
 
 ### Final Task Path
 ![Final Track](https://user-images.githubusercontent.com/79053599/222254405-9e1ae793-0220-495e-ba96-97befae539ba.png)
+
 
 The complete development is done in ros2 enviroment and gazebo simulation in Ubuntu 20.04
 <hr>

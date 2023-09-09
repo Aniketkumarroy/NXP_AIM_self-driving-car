@@ -12,7 +12,7 @@ https://github.com/Aniketkumarroy/NXP_AIM_self-driving-car/assets/86041791/97cee
 
 
 ### Final Task Path (Click Image)
-![Final Track](https://user-images.githubusercontent.com/79053599/222254405-9e1ae793-0220-495e-ba96-97befae539ba.png)(https://www.youtube.com/watch?v=W72R8r6fXwA)
+[![Final Track](https://user-images.githubusercontent.com/79053599/222254405-9e1ae793-0220-495e-ba96-97befae539ba.png)](https://www.youtube.com/watch?v=W72R8r6fXwA)
 
 
 The complete development is done in ros2 enviroment and gazebo simulation in Ubuntu 20.04

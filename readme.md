@@ -5,7 +5,9 @@ The task is to move the car using only the pixy camera provided along with the c
 [![Watch the Video](https://user-images.githubusercontent.com/79053599/179040830-9c331b0b-118d-47cb-a063-781e238e5e18.png)](https://youtu.be/tsFfwom65eM)
 Video
 
-https://github.com/Aniketkumarroy/NXP_AIM_self-driving-car/assets/86041791/97cee928-81b3-4243-834e-d1cbb78a6a7f
+
+
+https://github.com/Aniketkumarroy/NXP_AIM_self-driving-car/assets/86041791/6cd6b716-bd10-4290-8a9f-5b6f409e8f01
 
 
 
@@ -13,6 +15,7 @@ https://github.com/Aniketkumarroy/NXP_AIM_self-driving-car/assets/86041791/97cee
 
 ### Final Task Path (Click Image)
 [![Final Track](https://user-images.githubusercontent.com/79053599/222254405-9e1ae793-0220-495e-ba96-97befae539ba.png)](https://www.youtube.com/watch?v=W72R8r6fXwA)
+Video
 
 
 The complete development is done in ros2 enviroment and gazebo simulation in Ubuntu 20.04

@@ -6,8 +6,8 @@ The task is to move the car using only the pixy camera provided along with the c
 Video
 
 
+https://github.com/Aniketkumarroy/NXP_AIM_self-driving-car/assets/86041791/eef0ba18-80bc-4151-9114-d11039b3273b
 
-https://github.com/Aniketkumarroy/NXP_AIM_self-driving-car/assets/86041791/6cd6b716-bd10-4290-8a9f-5b6f409e8f01
 
 
 
